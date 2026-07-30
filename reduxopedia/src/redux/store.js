@@ -10,4 +10,4 @@ export const store = configureStore({
 
 // console.log(store.getState());  ---> This will be used to see the reducer state using getState() method from store
 //console.log(store.dispatch);
-// There is also another called as dispatch which will be used to see the actions
+// There is also another called as dispatch which will be used to invoke the actions
