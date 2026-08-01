@@ -28,8 +28,9 @@ const destinationSlice = createSlice({
     destinationClicked: (state, action) => {
       state.destinationSelected = action.payload;
     },
-    resetDestination: (state) => {
+    resetDestination: (state, action) => {
       state.destinationSelected = null;
+      console.log(action);
     },
   },
 });
